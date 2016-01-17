@@ -18,7 +18,7 @@ apply plugin: "com.gradle.plugin-publish"
 
 
 group = 'com.comsysto.gradle'
-version = new Version('0.1.0-SNAPSHOT')
+version = new Version('0.1.0')
 status = version.status
 
 repositories {
@@ -113,7 +113,7 @@ bintray {
             vcsTag = "${project.version}"
             released  = new Date()
             desc = 'Initial release'
-            attributes = ['gradle-plugin': 'com.comsysto.gradle.crolabefra.java:com.comsysto.gradle:crolabefra-mothership-plugin']
+            attributes = ['gradle-plugin': 'com.comsysto.gradle.crolabefra.mothership:com.comsysto.gradle:crolabefra-mothership-plugin']
         }
     }
 }
